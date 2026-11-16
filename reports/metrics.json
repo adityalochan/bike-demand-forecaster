@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "torch": "2.15.0",
+  "scikit_learn": "1.9.1",
+  "main_run": {
+    "name": "main",
+    "lr": 0.003,
+    "hidden": 64,
+    "n_layers": 2,
+    "batch_size": 64,
+    "epochs": 300,
+    "best_epoch": 236,
+    "best_val_mae": 2.601170705159505,
+    "final_train_loss": 8.637942646874322,
+    "final_val_loss": 15.737066040039062
+  },
+  "mae_in_rentals": {
+    "val": {
+      "mean_baseline_mae": 10.153898239135742,
+      "linear_regression_mae": 9.316919326782227,
+      "network_mae": 2.601170705159505
+    },
+    "test": {
+      "mean_baseline_mae": 9.649139404296875,
+      "linear_regression_mae": 8.572918891906738,
+      "network_mae": 2.471396789550781
+    }
+  }
+}
