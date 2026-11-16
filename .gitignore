@@ -1,0 +1,25 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments and secrets
+.venv/
+venv/
+.env
+
+# Packaging
+*.egg-info/
+build/
+dist/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+
+# Note: reports/ is deliberately NOT ignored. The learning curves, history,
+# experiments and metrics must be committed so a marker can read the results.
